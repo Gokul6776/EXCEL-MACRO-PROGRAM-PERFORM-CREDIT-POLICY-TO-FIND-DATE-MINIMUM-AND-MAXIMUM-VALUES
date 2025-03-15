@@ -1,1 +1,2 @@
 # EXCEL-MACRO-PROGRAM-PERFORM-CREDIT-POLICY-TO-FIND-DATE-MINIMUM-AND-MAXIMUM-VALUES
+SOURCE CODE:Sub AA()Dim A As IntegerDim B As IntegerDim C As IntegerDim D As IntegerDim result As Integer A = InputBox("Enter number 1")B = InputBox("Enter number 2")C = InputBox("Enter number 3")D = InputBox("Enter number 4")result = WorksheetFunction.Max(A, B, C, D) MsgBox "The maximum number is: " & resultEnd Sub
